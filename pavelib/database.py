@@ -129,7 +129,7 @@ def update_local_bokchoy_db_from_s3(options):
             print(msg)
 
     rewrite_fingerprint = getattr(options, 'rewrite_fingerprint', False)
-    # If the rewrite_fingerprint flag is set, and the fingerpint has changed,
+    # If the rewrite_fingerprint flag is set, and the fingerprint has changed,
     # write it to disk.
     if not fingerprints_match and rewrite_fingerprint:
         print("Updating fingerprint and writing to disk.")

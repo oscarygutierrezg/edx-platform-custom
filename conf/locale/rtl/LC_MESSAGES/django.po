@@ -7755,7 +7755,7 @@ msgid "Requested task is already running"
 msgstr "قثضعثسفثي فشسن هس شمقثشيغ قعررهرل"
 
 #: lms/djangoapps/instructor_task/api_helper.py
-msgid "Error occured. Please try again later."
+msgid "Error occurred. Please try again later."
 msgstr "ثققخق خذذعقثي. حمثشسث فقغ شلشهر مشفثق."
 
 #: lms/djangoapps/instructor_task/api_helper.py
@@ -11936,7 +11936,7 @@ msgstr ""
 "ذقثشفثي. {bold_start}{email}{bold_end} هس رخص غخعق حقهوشقغ مخلهر ثوشهم."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid "Some error occured during password change. Please try again"
+msgid "Some error occurred during password change. Please try again"
 msgstr "سخوث ثققخق خذذعقثي يعقهرل حشسسصخقي ذاشرلث. حمثشسث فقغ شلشهر"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py

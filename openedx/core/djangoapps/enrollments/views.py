@@ -856,7 +856,7 @@ class EnrollmentListView(APIView, ApiKeyPermissionMixIn):
             return Response(
                 status=status.HTTP_400_BAD_REQUEST,
                 data={
-                    "message": u"An error occured while adding to cohort [%s]" % cohort_name
+                    "message": u"An error occurred while adding to cohort [%s]" % cohort_name
                 })
         finally:
             # Assumes that the ecommerce service uses an API key to authenticate.

@@ -332,7 +332,7 @@ class TestCommonExceptions400(TestCase):
         resp = view_queue_connection_error(self.request)
         self.assertContains(
             resp,
-            'Error occured. Please try again later',
+            'Error occurred. Please try again later',
             status_code=400,
         )
 

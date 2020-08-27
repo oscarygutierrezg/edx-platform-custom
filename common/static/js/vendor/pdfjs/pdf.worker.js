@@ -19655,7 +19655,7 @@ Type1Font.prototype = {
     cff.names = [name];
 
     var topDict = new CFFTopDict();
-    // CFF strings IDs 0...390 are predefined names, so refering
+    // CFF strings IDs 0...390 are predefined names, so referring
     // to entries in our own String INDEX starts at SID 391.
     topDict.setByName('version', 391);
     topDict.setByName('Notice', 392);

@@ -1141,7 +1141,7 @@ msgstr ""
 "которые записаны. Войдите для продолжения работы."
 
 #: common/djangoapps/student/views/management.py
-msgid "Some error occured during password change. Please try again"
+msgid "Some error occurred during password change. Please try again"
 msgstr ""
 
 #: common/djangoapps/student/views/management.py
@@ -8082,7 +8082,7 @@ msgid "Requested task is already running"
 msgstr "Запрошенное задание уже выполняется."
 
 #: lms/djangoapps/instructor_task/api_helper.py
-msgid "Error occured. Please try again later."
+msgid "Error occurred. Please try again later."
 msgstr "Произошла ошибка. Пожалуйста, повторите попытку позже."
 
 #: lms/djangoapps/instructor_task/api_helper.py

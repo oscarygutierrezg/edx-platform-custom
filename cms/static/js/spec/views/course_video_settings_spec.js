@@ -405,7 +405,7 @@ define(
                 changeProvider(selectedProvider);
                 expect(courseVideoSettingsView.selectedProvider).toEqual(selectedProvider);
 
-                // Verify source langauges menu is shown.
+                // Verify source languages menu is shown.
                 sourceLanguages = courseVideoSettingsView.getSourceLanguages();
                 expect($courseVideoSettingsEl.find('.video-source-language option')).toExist();
                 expect($courseVideoSettingsEl.find('.video-source-language option').length).toEqual(
@@ -435,14 +435,14 @@ define(
                 selectPreference('.transcript-fidelity', selectedFidelity);
                 expect(courseVideoSettingsView.selectedFidelityPlan).toEqual(selectedFidelity);
 
-                // Verify source langauges menu is shown.
+                // Verify source languages menu is shown.
                 sourceLanguages = courseVideoSettingsView.getSourceLanguages();
                 expect($courseVideoSettingsEl.find('.video-source-language option')).toExist();
                 expect($courseVideoSettingsEl.find('.video-source-language option').length).toEqual(
                     _.keys(sourceLanguages).length + 1
                 );
 
-                // Verify getSourceLangaues return a list of langauges.
+                // Verify getSourceLangaues return a list of languages.
                 expect(sourceLanguages).toBeDefined();
                 expect(transcriptionPlans[selectedProvider].fidelity[selectedFidelity].languages).toEqual(
                     sourceLanguages
@@ -465,7 +465,7 @@ define(
                 selectPreference('.transcript-fidelity', selectedFidelity);
                 expect(courseVideoSettingsView.selectedFidelityPlan).toEqual(selectedFidelity);
 
-                // Verify target langauges not shown.
+                // Verify target languages not shown.
                 expect($courseVideoSettingsEl.find('.transcript-language-menu:visible option')).not.toExist();
 
                 // Select source language

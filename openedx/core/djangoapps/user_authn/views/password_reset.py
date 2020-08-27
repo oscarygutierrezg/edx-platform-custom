@@ -587,9 +587,9 @@ def password_change_request_handler(request):
                 )
                 ace.send(msg)
         except errors.UserAPIInternalError as err:
-            log.exception(u'Error occured during password change for user {email}: {error}'
+            log.exception(u'Error occurred during password change for user {email}: {error}'
                           .format(email=email, error=err))
-            return HttpResponse(_("Some error occured during password change. Please try again"), status=500)
+            return HttpResponse(_("Some error occurred during password change. Please try again"), status=500)
 
         password_reset_email_limiter.tick_request_counter(request)
         return HttpResponse(status=200)

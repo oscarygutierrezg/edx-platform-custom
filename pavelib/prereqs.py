@@ -249,7 +249,7 @@ def uninstall_python_packages():
 
         for package_name in PACKAGES_TO_UNINSTALL:
             if package_in_frozen(package_name, frozen):
-                # Uninstall the pacakge
+                # Uninstall the package
                 sh(u"pip uninstall --disable-pip-version-check -y {}".format(package_name))
                 uninstalled = True
         if not uninstalled:

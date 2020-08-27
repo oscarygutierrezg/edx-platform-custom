@@ -8136,7 +8136,7 @@ msgid "Requested task is already running"
 msgstr "La tarea solicitada ya está en ejecución"
 
 #: lms/djangoapps/instructor_task/api_helper.py
-msgid "Error occured. Please try again later."
+msgid "Error occurred. Please try again later."
 msgstr "Ocurrió un problema. Por favor intente más tarde."
 
 #: lms/djangoapps/instructor_task/api_helper.py
@@ -12335,7 +12335,7 @@ msgstr ""
 "minutos."
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid "Some error occured during password change. Please try again"
+msgid "Some error occurred during password change. Please try again"
 msgstr ""
 "Hubo algún error durante el cambio de la contraseña. Por favor, inténtalo de"
 " nuevo"

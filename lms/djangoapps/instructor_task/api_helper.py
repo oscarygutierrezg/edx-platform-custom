@@ -42,7 +42,7 @@ class QueueConnectionError(Exception):
     """
     Exception indicating that celery task was not created successfully.
     """
-    message = _('Error occured. Please try again later.')
+    message = _('Error occurred. Please try again later.')
 
     def __init__(self, message=None):
         if not message:
