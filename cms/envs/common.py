@@ -19,7 +19,7 @@ Longer TODO:
 3. We need to handle configuration for multiple courses. This could be as
    multiple sites, but we do need a way to map their data assets.
 
-When refering to XBlocks, we use the entry-point name. For example,
+When referring to XBlocks, we use the entry-point name. For example,
 |   setup(
 |       name='xblock-foobar',
 |       version='0.1',

@@ -9014,7 +9014,7 @@ msgstr ""
 "Réqüéstéd täsk ïs älréädý rünnïng Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
 
 #: lms/djangoapps/instructor_task/api_helper.py
-msgid "Error occured. Please try again later."
+msgid "Error occurred. Please try again later."
 msgstr ""
 "Érrör öççüréd. Pléäsé trý ägäïn lätér. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
 "¢σηѕє¢тєтυя#"
@@ -13817,7 +13817,7 @@ msgstr ""
 "Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт #"
 
 #: openedx/core/djangoapps/user_authn/views/password_reset.py
-msgid "Some error occured during password change. Please try again"
+msgid "Some error occurred during password change. Please try again"
 msgstr ""
 "Sömé érrör öççüréd dürïng pässwörd çhängé. Pléäsé trý ägäïn Ⱡ'σяєм ιρѕυм "
 "∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"

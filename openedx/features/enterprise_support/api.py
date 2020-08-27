@@ -162,7 +162,7 @@ class EnterpriseApiClient(object):
             endpoint.post(data=data)
         except (HttpClientError, HttpServerError):
             message = (
-                u"An error occured while posting EnterpriseCourseEnrollment for user {username} and "
+                u"An error occurred while posting EnterpriseCourseEnrollment for user {username} and "
                 u"course run {course_id} (consent_granted value: {consent_granted})"
             ).format(
                 username=username,
